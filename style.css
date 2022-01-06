@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Indie+Flower&family=Permanent+Marker&family=Poppins:wght@400;500;600;700;800;900&family=Waterfall&family=Yellowtail&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.flex{
+    display: flex;
+}
+.mt_30{
+margin-top: 30px;
+}
+.mt_100{
+    margin-top: 100px;
+}
+.f-half{
+    width: 40%;
+    margin-left: 10%;
+}
+.f-half h1::before{
+    content: '';
+    height: 140px;
+    width: 6px;
+    float: left;
+    background: rgb(255, 99, 99);
+    margin-right: 15px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+.l-half{
+    width: 40%;
+    margin-left: 10%;
+}
+.l-half img{
+    width: 80%;
+    height: 90%;
+}
+h1{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 60px;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+}
+
+span{
+   
+font-family: 'Permanent Marker', cursive;
+    color: orange;
+}
+.text p{
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.text{
+margin-bottom: 10px;
+}
+a{
+    background: coral;
+    padding: 12px 40px;
+    color: white;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    transition: linear 0.4s;
+}
+.scroll{
+    font-size: 16px;
+    margin-top: 30px;
+    font-weight: 400;
+}
+.mission h1{
+    text-align: center;
+}
+.box{
+    margin-top: 30px;
+    justify-content: center;
+    text-align: left;
+    margin-left: 10%;
+}
+.box img{
+    width: 40%;
+    justify-content: left;
+}
+.box h2{
+    font-family: 'Indie Flower', cursive;
+    margin-top: 15px;
+    font-size: 32px;
+    font-weight: 700;
+}
+.box p{
+    margin-top: 15px;
+    
+}
+.box1, .box2, .box3{
+    font-size: 16px;
+    width: 25%;
+   padding: 15px 30px;
+    border-radius: 20px;
+    margin-right: 3%;
+}
+.box1{
+    background: #FCF3CF;
+    
+}
+.box2{
+    background: #F5B7B1;
+    
+}
+.box3{
+    background: #EBDEF0;
+    
+}
+.dev{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+   background-position-x: 4%;
+   background-position-y: 50%;
+    }
+.dev_pic{
+    width: 30%;
+    margin-left: 10%;
+}
+.dev_pic img{
+    width: 80%;
+}
+.dev_txt{
+    width: 40%;
+}
+.dev_txt h1{
+    font-size: 40px;
+    margin-top: 20px;
+}
+.dev_txt p{
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.dev_txt a{
+    background: rgb(255, 99, 99);
+    padding: 15px 40px;
+    font-size: 16px;
+    
+}
+.project{
+    margin-left: 10%;
+}
+.pro_pic{
+    width: 40%;
+    margin-right: 10%;
+}
+.pro_pic img{
+    width: 80%;
+}
+.pro_txt{
+    width: 40%;
+    margin-right: 10%;
+}
+.pro_txt h1{
+    font-size: 40px;
+    margin-top: 20px;
+}
+.pro_txt p{
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.pro_txt a{
+    background: rgb(255, 99, 99);
+    padding: 15px 40px;
+    font-size: 16px;
+    
+}
+.skill h1{
+    text-align: center;
+}
+.skills{
+    margin-top: 30px;
+    justify-content: center;
+    text-align: left;
+    margin-left: 10%;
+}
+.skills img{
+    width: 40%;
+    justify-content: left;
+}
+.skills h2{
+    font-family: 'Indie Flower', cursive;
+    margin-top: 15px;
+    font-size: 32px;
+    font-weight: 700;
+}
+.skills p{
+    margin-top: 15px;
+    
+}
+.skill1, .skill2, .skill3{
+    font-size: 16px;
+    width: 25%;
+   padding: 15px 30px;
+    border-radius: 20px;
+    margin-right: 3%;
+    box-shadow: 10px 10px 15px gray;
+    border-left: 5px solid;
+    border-image-slice: 1;
+    border-color: rgb(11, 114, 114);
+    transition: linear 0.4s;
+}
+.skill1{
+    background: #D6EAF8;
+    
+}
+.skill2{
+    background: #A3E4D7;
+    border-color: #0B5345;
+}
+.skill3{
+    background: #F5B7B1 ;
+    border-color: #A93226;
+}
+.skill1:hover{
+    width: 26%;
+    background: #154360;
+    border-color: #154360;
+    color: white;
+}
+.skill2:hover{
+    width: 26%;
+    background: #0B5345;
+    border-color: #0d4f52;
+    color: white;
+}
+.skill3:hover{
+    width: 26%;
+    background: #A93226;
+    border-color: #A93226;
+    color: white;
+}
+#sk{
+    margin-bottom: 100px;
+}
+a:hover{
+    background: black;
+}
+
+.ftr{
+    background: black;
+    padding: 20px 40px;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+}
+.ftr h2{
+    color: white;
+    font-size: 40px;
+    font-family: 'Yellowtail', cursive;
+    margin-bottom: 15px;
+}
+.ftr p{
+    font-family: 'Waterfall', cursive;
+    color: white;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
